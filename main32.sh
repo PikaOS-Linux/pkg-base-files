@@ -14,7 +14,7 @@ apt-get build-dep ./ -y -a i386
 
 # Build package
 LOGNAME=root dh_make --createorig -y -l -p base-files_12.2ubuntu99
-dpkg-buildpackage -a i386
+dpkg-buildpackage  --no-sign -a i386
 
 # Move the debs to output
 cd ../
