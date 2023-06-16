@@ -1,9 +1,3 @@
-# Add dependent repositories
-wget -q -O - https://ppa.pika-os.com/key.gpg | sudo apt-key add -
-add-apt-repository https://ppa.pika-os.com
-add-apt-repository ppa:pikaos/pika || true
-add-apt-repository ppa:kubuntu-ppa/backports || true
-
 # Clone Upstream
 cd ./basefiles
 
