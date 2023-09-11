@@ -5,8 +5,7 @@ cd ./basefiles
 apt-get build-dep ./ -y
 
 # Build package
-LOGNAME=root dh_make --createorig -y -l -p base-files_12.3ubuntu99
-dpkg-buildpackage
+dpkg-buildpackage --no-sign
 
 # Move the debs to output
 cd ../
