@@ -1,9 +1,9 @@
 NAME="PikaOS"
-VERSION="PikaUwU 23.2"
+VERSION="24.0"
 ID=pika
 ID_LIKE="ubuntu debian"
-PRETTY_NAME="PikaOS - PikaUwU 23.2"
-VERSION_ID="23.2"
+PRETTY_NAME="PikaOS Linux 24.0"
+VERSION_ID="24.0"
 VERSION_CODENAME=pikauwu
 UBUNTU_CODENAME=mantic
 LOGO=pika-logo
